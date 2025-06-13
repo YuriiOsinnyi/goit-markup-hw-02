@@ -3,13 +3,16 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
 ul,
 ol {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -20,42 +23,57 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo .logo-part,
 .nav-link {
   color: #2e2f42;
 }
+
+.footer-logo .logo-part,
+.footer-text {
+  color: #f4f4fd;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+
 .contacts {
   font-style: normal;
 }
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* header  end */
 
 /* maine */
 
 /* <!-----------Header ----------> */
+
 button {
   cursor: pointer;
 }
-.hero-section {
+
+.hero-section,
+.page-footer {
   background-color: #2e2f42;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -64,6 +82,7 @@ button {
   text-align: center;
   color: #fff;
 }
+
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -72,11 +91,14 @@ button {
   color: #fff;
   background-color: #4d5ae5;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
+
 /* <!-- section 1 --> */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -88,6 +110,7 @@ button {
   white-space: nowrap;
   border: 0;
 }
+
 .advantages-titel {
   font-weight: 500;
   font-size: 20px;
@@ -95,11 +118,9 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.dvantages-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 /* <!-- Section 2 --> */
+
 .team-titel {
   font-weight: 700;
   font-size: 36px;
@@ -108,6 +129,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-titel-name {
   font-weight: 500;
   font-size: 20px;
@@ -116,14 +138,43 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
 }
-.teme-card {
+
+.teme-card,
+.portfolio-img {
   background-color: #fff;
 }
+
 .section-team {
   background-color: #f4f4fd;
+}
+
+/* <!-- Our Portfolio Section 3 --> */
+
+.portfolio-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-text,
+.team-text,
+.dvantages-text,
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
