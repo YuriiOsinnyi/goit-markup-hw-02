@@ -13,7 +13,6 @@ a {
   text-decoration: none;
 }
 
-/* header */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -59,12 +58,6 @@ a {
   color: #434455;
 }
 
-/* header  end */
-
-/* maine */
-
-/* <!-----------Header ----------> */
-
 button {
   cursor: pointer;
 }
@@ -97,8 +90,6 @@ button {
   background-color: #404bbf;
 }
 
-/* <!-- section 1 --> */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -118,8 +109,6 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-/* <!-- Section 2 --> */
 
 .team-titel {
   font-weight: 700;
@@ -151,8 +140,6 @@ button {
 .section-team {
   background-color: #f4f4fd;
 }
-
-/* <!-- Our Portfolio Section 3 --> */
 
 .portfolio-titel {
   font-weight: 700;
