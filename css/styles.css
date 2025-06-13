@@ -50,7 +50,9 @@ a {
 /* maine */
 
 /* <!-----------Header ----------> */
-
+button {
+  cursor: pointer;
+}
 .hero-section {
   background-color: #2e2f42;
 }
@@ -68,11 +70,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* <!-- section 1 --> */
 .visually-hidden {
@@ -120,9 +122,9 @@ a {
   text-align: center;
 }
 .teme-card {
-  background: #fff;
+  background-color: #fff;
 }
 .section-team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 /* maine end */
