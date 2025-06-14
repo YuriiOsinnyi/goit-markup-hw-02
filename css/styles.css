@@ -90,7 +90,7 @@ button {
   background-color: #404bbf;
 }
 
-.advantages-titel {
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,19 +117,11 @@ button {
   color: #2e2f42;
 }
 
-.team-text {
-  text-align: center;
-}
-
-.portfolio-item {
-  background-color: #fff;
-}
-
 .section-team {
   background-color: #f4f4fd;
 }
 
-.portfolio-titel {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -160,7 +152,8 @@ button {
   text-align: center;
   color: #434455;
 }
-.portfolio-list {
+.portfolio-list,
+.portfolio-item {
   background-color: #ffffff;
 }
 .team-item {
