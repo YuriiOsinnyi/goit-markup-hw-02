@@ -23,13 +23,11 @@ a {
   color: #4d5ae5;
 }
 
-.header-logo .logo-part,
-.nav-link {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
-.footer-logo .logo-part,
-.footer-text {
+.footer-logo .logo-part {
   color: #f4f4fd;
 }
 
@@ -38,6 +36,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -61,12 +60,6 @@ a {
 button {
   cursor: pointer;
 }
-
-.hero-section,
-.page-footer {
-  background-color: #2e2f42;
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -76,6 +69,9 @@ button {
   color: #fff;
 }
 
+.hero-section {
+  background-color: #2e2f42;
+}
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -87,9 +83,17 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background: #404bbf;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -98,17 +102,27 @@ button {
   color: #2e2f42;
 }
 
-.team-titel {
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
-
-.team-titel-name {
+.team-item {
+  background-color: #fff;
+}
+.team-title-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,18 +131,24 @@ button {
   color: #2e2f42;
 }
 
-.section-team {
-  background-color: #f4f4fd;
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
+}
+
+.portfolio-item {
+  background-color: #fff;
 }
 
 .portfolio-card {
@@ -139,23 +159,18 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-text,
-.advantages-text,
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.team-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-.portfolio-list,
-.portfolio-item {
-  background-color: #ffffff;
-}
-.team-item {
-  background-color: #ffffff;
+  color: #f4f4fd;
 }
